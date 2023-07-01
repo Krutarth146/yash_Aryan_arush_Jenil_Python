@@ -71,4 +71,13 @@ for num in range(1, 100):
         print(num,end= ' ')
 
 
-# Palindrome, Armstrong, Perfect, Sum of Digits, Sum of Numbers, Twin, Factroial, Fibonnaccii
+# Palindrome, Armstrong, Perfect, Sum of Digits, Sum of Numbers, Twin, Factroial, Fibonnaccii,
+#  POwer, TOtal Count of Numbers
+
+# num = 3, step = 4
+
+# 3
+# 33
+# 333
+# 3333
+# 33333
