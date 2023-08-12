@@ -34,3 +34,10 @@ for row in range(len(list1)):
   
 
 
+list1 = [10,20,30,40]
+
+for i in list1:
+    a = str(list1)
+    print(a)
+    print(a[3])   # ,
+    print(type(a[3]))   
