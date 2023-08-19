@@ -66,3 +66,30 @@ l6 = [11,90,22,3121,23]
 
 for i,j in zip(l2,l6):
     print(i)
+
+
+# list, so that they cover the range [0, 1].
+# Input:
+# [18.5, 17.0, 18.0, 19.0, 18.0]
+# Output:
+# [0.75, 0.0, 0.5, 1.0, 0.5]
+# Input:
+# [13.0, 17.0, 17.0, 15.5, 2.94]
+# Output:
+# [0.7155049786628734, 1.0, 1.0, 0.8933143669985776, 0.0]
+ 
+
+list1 = [13.0, 17.0, 17.0, 15.5, 2.94]
+
+min1 = min(list1)
+max1 = max(list1)
+
+differ = max1 - min1   # 14.06  ---> 100%
+ans = []
+
+for i in list1:
+    res = i - min1
+    ans.append(res / differ)
+
+
+print(ans)
