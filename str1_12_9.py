@@ -30,4 +30,3 @@ print(str3.translate(table))   # Hell Ram
 print(str3)   # Hello Sam
 print(str3.replace("Sam", "Sita Ram",1))   # Hello Sita Ram
 
-str3.r
