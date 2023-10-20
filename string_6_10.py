@@ -50,21 +50,21 @@ print(x)  # 220
 
 
 
-p = 5   # Global
-def sum(q,r=2):  # sum(1,5)   
-    global p      # p = 105
-    p = r+q**2    # p = 6
-    print(p,end='#')   # 105#6#
+# p = 5   # Global
+# def sum(q,r=2):  # sum(1,5)   
+#     global p      # p = 105
+#     p = r+q**2    # p = 6
+#     print(p,end='#')   # 105#6#
 
 
-a = 10
-b = 5
-sum(a,b)  # sum(10,5) 
-sum(r=5,q=1)     # 105#6#
+# a = 10
+# b = 5
+# sum(a,b)  # sum(10,5) 
+# sum(r=5,q=1)     # 105#6#
 
 
 
 
-# -----------------------------
-a = "Hello"
+# --------------------------
 
+import 

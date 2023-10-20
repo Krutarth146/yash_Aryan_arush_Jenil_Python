@@ -28,3 +28,8 @@ print(dict2)
 
 if dict1 == dict2:
     print(True)
+
+
+import functions_17_10
+
+print(functions_17_10.greet())   # 70
